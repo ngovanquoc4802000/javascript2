@@ -1,0 +1,14 @@
+@keyframes mycvquoc {
+    from { 
+        opacity: 0; 
+        transform: translateY(-10px); 
+        }
+    
+      to { 
+        opacity: 1; 
+        transform: translateY(0px); 
+        }
+}<div>
+<div onclick="showSuccessToast();" class="btn btn--success">Show success toast</div>
+<div onclick="showErrorToast();" class="btn btn--danger">Show error toast</div>
+</div>
